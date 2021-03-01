@@ -182,7 +182,8 @@
   align-content: stretch;
   margin: 0;
   padding: 0;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .table__cell {
@@ -393,7 +394,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .footer__columns-links {
