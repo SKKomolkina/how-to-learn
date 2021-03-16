@@ -1,9 +1,9 @@
-.resources__logo_link {
+.resources__logo-link {
   margin: 0;
   padding: 0;
 }
 
-.resources__logo_link:hover {
+.resources__logo-link:hover {
   opacity: 70%;
   transition: ease-in;
 }
