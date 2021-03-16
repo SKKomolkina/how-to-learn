@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./page/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -23,7 +22,7 @@
 
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -39,7 +38,7 @@
               эффективным и захватывающим. Эти же техники применяются на примере обучения в
               Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
@@ -49,43 +48,29 @@
           <li class="cards__item">
             <img src="./images/images_sprint-2/cards-attention.png" alt="Изображение книги" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
-            <p class="cards__description">Глубокие знания<br>
-              возникают, если<br>
-              чередовать<br>
-              сфокусированное и<br>
+            <p class="cards__description">Глубокие знания возникают, если чередоватьсфокусированное и
               рассеянное мышление.</p>
           </li>
           <li class="cards__item">
             <img src="./images/images_sprint-2/cards-recall.png" alt="Изображение статуи" class="cards__image">
             <h3 class="cards__title">Recall</h3>
-            <p class="cards__description">Вспоминайте изученное — <br>
-              это позволит соединить <br>
-              разрозненные порции <br>
-              памяти.</p>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
             <img src="./images/images_sprint-2/cards-interliving.png" alt="Изображение зала" class="cards__image">
             <h3 class="cards__title">Интерливинг</h3>
-            <p class="cards__description">Изучайте несколько<br>
-              навыков одновременно, <br>
-              они обогащают друг друга.</p>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
             <img src="./images/images_sprint-2/cards-question.png" alt="Изображение окна" class="cards__image">
             <h3 class="cards__title">Вопросы</h3>
-            <p class="cards__description">Слушая преподавателя, <br>
-              придумывайте хороший <br>
-              вопрос, который вас <br>
-              действительно волнует.</p>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </li>
           <li class="cards__item">
             <img src="./images/images_sprint-2/cards-competence.png" alt="Изображение книги" class="cards__image">
             <h3 class="cards__title">Иллюзия компетентности</h3>
-            <p class="cards__description">Повторите про себя, <br>
-              запишите, расскажите <br>
-              другу: вам только кажется, <br>
-              что вы владеете новой <br>
-              темой.</p>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется,
+              что вы владеете новой темой.</p>
           </li>
         </ul>
       </section>
@@ -94,15 +79,15 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe width="600" height="100" src="https://www.youtube.com/embed/5MgBikgcWnY"
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY"
             class="video__iframe"></iframe>
-          <iframe width="600" height="100" src="https://www.youtube.com/embed/arj7oStGLkU"
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU"
             class="video__iframe"></iframe>
         </div>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика.
@@ -113,7 +98,7 @@
               если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем
               у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -234,12 +219,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Логотип Arzamas" class="resources__logo">
-          <img src="./images/images_sprint-2/logo/resources-n1.svg" alt="Логотип N1" class="resources__logo">
-          <img src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Логотип Strelka" class="resources__logo">
-          <img src="./images/images_sprint-2/logo/resources-polka.svg" alt="Логотип Polka" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo"><a href="#" class="resources__logo_link"><img src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Логотип Arzamas"></a></li>
+          <li class="resources__logo"><a href="#" class="resources__logo_link"><img src="./images/images_sprint-2/logo/resources-n1.svg" alt="Логотип N1"></a></li>
+          <li class="resources__logo"><a href="#" class="resources__logo_link"><img src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Логотип Strelka"></a></li>
+          <li class="resources__logo"><a href="#" class="resources__logo_link"><img src="./images/images_sprint-2/logo/resources-polka.svg" alt="Логотип Polka"></a></li>
+        </ul>
       </section>
     </main>
 

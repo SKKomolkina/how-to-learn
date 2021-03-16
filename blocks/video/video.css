@@ -1,7 +1,6 @@
 .video {
-  position: relative;
-  bottom: -60px;
   margin: 0;
+  margin-bottom: -60px;
   padding: 0;
   z-index: 1;
 }
