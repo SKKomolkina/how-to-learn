@@ -6,8 +6,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.resources__logo:hover {
-  transition: ease-in;
-  transform: scale(1.5);
-}
