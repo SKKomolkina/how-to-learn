@@ -10,12 +10,13 @@
 
 Технологии:
 
-*БЭМ
-*HTML
-*CSS
-*Flex box
-*Gridlayout
-*CSS Animation
+* БЭМ
+* HTML
+* CSS
+* Flex box
+* Gridlayout
+* CSS Animation
+* Git
 
 ------
 
