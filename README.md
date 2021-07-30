@@ -21,4 +21,4 @@
 дополнительной, более сложной анимацией,
 произвести рефакторинг. Добавить адаптив. 
 
-skkomolkina.github.io/how-to-learn/
+# https://skkomolkina.github.io/how-to-learn/
