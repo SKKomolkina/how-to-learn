@@ -1,8 +1,9 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-  list-style: none;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
